@@ -55,7 +55,7 @@ function editInfo(id) {
 }
 
 function deleteInfo(id) {
-  userArray.splice(id, 1);
+  userArray.splice(id, 2);
   infoSave(userArray);
   displayInfo();
 }
